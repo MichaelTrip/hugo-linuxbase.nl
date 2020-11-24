@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>::Linuxbase.nl::</title>
+    <link>/</link>
+    <description>Recent content on ::Linuxbase.nl::</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there My name is Michael Trip and i run Linuxbase.nl. This site will be my personal blog about my every day job as a devops / Linux system administrator. I will also be posting things that personally interest me a lot, like virtualization, Ansible, and Software defined radio.
+For my professional website please visit Michaeltrip.nl.
+I hope you will enjoy my website. Greetings,
+Michael</description>
+    </item>
+    
+    <item>
+      <title>Homelab</title>
+      <link>/homelab/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/homelab/</guid>
+      <description>My homelab On this page i will share my current homelab setup. Stay tuned ;-)</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Linuxbase.nl</title>
+      <link>/post/hello/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
+ Fusce pharetra suscipit orci nec tempor.</description>
+    </item>
+    
+  </channel>
+</rss>
