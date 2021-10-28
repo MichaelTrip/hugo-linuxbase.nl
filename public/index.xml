@@ -6,7 +6,19 @@
     <description>Recent content on ::Linuxbase.nl::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips on the CKAD exam</title>
+      <link>/post/ckad-exam-tips/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ckad-exam-tips/</guid>
+      <description>Intro So i passed the CKAD exam last september. In this blog i wanted to share some tips.
+Learning matters For me personally i am the type of guy that learns by just doing it. Set up some Kubernetes node with either Kind or Rancher Desktop and just try some things out.
+Also, check out some great Udemy courses. I personally liked this CKAD course by Mumshad Mannambeth.
+Also, try some practice exercises from the internet.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>/about/</link>
@@ -26,16 +38,6 @@ Michael</description>
       
       <guid>/homelab/</guid>
       <description>My homelab On this page i will share my current homelab setup. Stay tuned ;-)</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Linuxbase.nl</title>
-      <link>/post/hello/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hello/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
- Fusce pharetra suscipit orci nec tempor.</description>
     </item>
     
   </channel>
