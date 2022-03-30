@@ -28,7 +28,7 @@ Also, try some practice exercises from the internet.</description>
 &lt;li&gt;&lt;a href=&#34;https://github.com/dgkanatsios/CKAD-exercises&#34;&gt;https://github.com/dgkanatsios/CKAD-exercises&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jamesbuckett/ckad-questions&#34;&gt;https://github.com/jamesbuckett/ckad-questions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Also, if you have booked the exam, you are also entitled to use the Exam simulator by (killer.sh)[https://killer.sh]. If you log-in on the site of the Linux Foundation there is a link to that exam simulator. You have 2 shots.&lt;/p&gt;
+&lt;p&gt;Also, if you have booked the exam, you are also entitled to use the Exam simulator by &lt;a href=&#34;https://killer.sh&#34;&gt;killer.sh&lt;/a&gt;. If you log-in on the site of the Linux Foundation there is a link to that exam simulator. You have 2 shots.&lt;/p&gt;
 &lt;h2 id=&#34;use-autocompletion-in-your-bashrc&#34;&gt;Use autocompletion in your bashrc&lt;/h2&gt;
 &lt;p&gt;When you are working on the CKAD exam, speed is everything. You have approx 15-17 questions to do within two hours, so time is crucial.&lt;/p&gt;
 &lt;p&gt;You can speed things up by using auto-completion in your shell. To do so, enable auto completion for &lt;code&gt;kubectl&lt;/code&gt; in your &lt;code&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;

@@ -22,7 +22,7 @@ Also, try some practice exercises from the internet. I just looked some of those
 * https://github.com/dgkanatsios/CKAD-exercises
 * https://github.com/jamesbuckett/ckad-questions
 
-Also, if you have booked the exam, you are also entitled to use the Exam simulator by (killer.sh)[https://killer.sh]. If you log-in on the site of the Linux Foundation there is a link to that exam simulator. You have 2 shots.
+Also, if you have booked the exam, you are also entitled to use the Exam simulator by [killer.sh](https://killer.sh). If you log-in on the site of the Linux Foundation there is a link to that exam simulator. You have 2 shots.
 
 ## Use autocompletion in your bashrc
 
