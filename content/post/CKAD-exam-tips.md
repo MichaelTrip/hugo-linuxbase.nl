@@ -26,7 +26,7 @@ Also, if you have booked the exam, you are also entitled to use the Exam simulat
 
 ## Use autocompletion in your bashrc
 
-When you are working on the CKAD exam, speed is everything. You have approx 15-17 questions to do within one hour, so time is crucial.
+When you are working on the CKAD exam, speed is everything. You have approx 15-17 questions to do within two hours, so time is crucial.
 
 You can speed things up by using auto-completion in your shell. To do so, enable auto completion for `kubectl` in your `.bashrc`.
 

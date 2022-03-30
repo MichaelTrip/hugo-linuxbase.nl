@@ -30,7 +30,7 @@ Also, try some practice exercises from the internet.</description>
 &lt;/ul&gt;
 &lt;p&gt;Also, if you have booked the exam, you are also entitled to use the Exam simulator by (killer.sh)[https://killer.sh]. If you log-in on the site of the Linux Foundation there is a link to that exam simulator. You have 2 shots.&lt;/p&gt;
 &lt;h2 id=&#34;use-autocompletion-in-your-bashrc&#34;&gt;Use autocompletion in your bashrc&lt;/h2&gt;
-&lt;p&gt;When you are working on the CKAD exam, speed is everything. You have approx 15-17 questions to do within one hour, so time is crucial.&lt;/p&gt;
+&lt;p&gt;When you are working on the CKAD exam, speed is everything. You have approx 15-17 questions to do within two hours, so time is crucial.&lt;/p&gt;
 &lt;p&gt;You can speed things up by using auto-completion in your shell. To do so, enable auto completion for &lt;code&gt;kubectl&lt;/code&gt; in your &lt;code&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;source &amp;lt;(kubectl completion bash)&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc &lt;span style=&#34;color:#75715e&#34;&gt;# add autocomplete permanently to your bash shell.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, you can hit the &lt;!-- raw HTML omitted --&gt; button on your keyboard to autocomplete commands. If you are tired of of typing in the whole &lt;code&gt;kubectl&lt;/code&gt; command you can also alias that command.&lt;/p&gt;
