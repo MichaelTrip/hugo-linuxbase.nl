@@ -6,7 +6,39 @@
     <description>Recent content in Posts on ::Linuxbase.nl::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips on the DO280 (Openshift Administration 2) exam</title>
+      <link>/post/do280-exam-tips-copy/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/do280-exam-tips-copy/</guid>
+      <description>Intro I passed the DO280 Exam last week. Some tips:
+Learning matters Use the official openshift material from Redhat.
+Create your own .vimrc If you use vim as your favorite editor, it is important to use the right configuration. You can edit your .vimrc in your home folder. I used the following settings:
+set nu # set numbers set tabstop=2 shiftwidth=2 expandtab # use 2 spaces instead of tab set ai # autoindent: when go to new line keep same indentation set cursorcolumn # You see a column on your cursor so you can easily check the identation.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;I passed the DO280 Exam last week. Some tips:&lt;/p&gt;
+&lt;h2 id=&#34;learning-matters&#34;&gt;Learning matters&lt;/h2&gt;
+&lt;p&gt;Use the official openshift material from Redhat.&lt;/p&gt;
+&lt;h2 id=&#34;create-your-own-vimrc&#34;&gt;Create your own .vimrc&lt;/h2&gt;
+&lt;p&gt;If you use vim as your favorite editor, it is important to use the right configuration. You can edit your &lt;code&gt;.vimrc&lt;/code&gt; in your home folder. I used the following settings:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set nu # set numbers
+set tabstop=2 shiftwidth=2 expandtab # use 2 spaces instead of tab
+set ai # autoindent: when go to new line keep same indentation
+set cursorcolumn # You see a column on your cursor so you can easily check the identation.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;some-other-tips&#34;&gt;Some other tips&lt;/h2&gt;
+&lt;h3 id=&#34;stay-hydrated&#34;&gt;Stay hydrated&lt;/h3&gt;
+&lt;p&gt;You are allowed to have a glass or a bottle of water next to you. Mind that this bottle or glass needs to be transparent.&lt;/p&gt;
+&lt;h3 id=&#34;clean-up-your-desk-before-taking-the-exam&#34;&gt;Clean up your desk before taking the exam&lt;/h3&gt;
+&lt;p&gt;I started the exam 15 minutes before and cleaned up my desk. But, i left my audio speakers on the desk. The proctor asked me to also remove these audio speakers. So please, clean up your desk and remove everything from your desk besides your keyboard, mouse and your laptop.&lt;/p&gt;
+&lt;h3 id=&#34;check-your-questions-before-you-begin&#34;&gt;Check your questions before you begin&lt;/h3&gt;
+&lt;p&gt;Go through all the questions and begin with the easiest ones first. After that, you have plenty of time to start with the hard questions.&lt;/p&gt;
+&lt;h3 id=&#34;check-in-which-context-you-have-to-use&#34;&gt;Check in which context you have to use&lt;/h3&gt;
+&lt;p&gt;At the beginning of every question, it states in which context you will work in. There is also a copy button with to command that you can use. Use this button, it will save you a lot of time.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Tips on the CKAD exam</title>
       <link>/post/ckad-exam-tips/</link>
@@ -32,11 +64,11 @@ Also, try some practice exercises from the internet.</description>
 &lt;h2 id=&#34;use-autocompletion-in-your-bashrc&#34;&gt;Use autocompletion in your bashrc&lt;/h2&gt;
 &lt;p&gt;When you are working on the CKAD exam, speed is everything. You have approx 15-17 questions to do within two hours, so time is crucial.&lt;/p&gt;
 &lt;p&gt;You can speed things up by using auto-completion in your shell. To do so, enable auto completion for &lt;code&gt;kubectl&lt;/code&gt; in your &lt;code&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;source &amp;lt;(kubectl completion bash)&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc &lt;span style=&#34;color:#75715e&#34;&gt;# add autocomplete permanently to your bash shell.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, you can hit the &lt;!-- raw HTML omitted --&gt; button on your keyboard to autocomplete commands. If you are tired of of typing in the whole &lt;code&gt;kubectl&lt;/code&gt; command you can also alias that command.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;alias k=kubectl&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
-echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;complete -F __start_kubectl k&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;More information can be found in the &lt;a href=&#34;https://kubernetes.io/docs/reference/kubectl/cheatsheet/&#34;&gt;Kubectl cheatsheet&lt;/a&gt;, which you can also use on the exam.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;source &amp;lt;(kubectl completion bash)&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc &lt;span style=&#34;color:#75715e&#34;&gt;# add autocomplete permanently to your bash shell.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, you can hit the &lt;!-- raw HTML omitted --&gt; button on your keyboard to autocomplete commands. If you are tired of of typing in the whole &lt;code&gt;kubectl&lt;/code&gt; command you can also alias that command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;alias k=kubectl&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;complete -F __start_kubectl k&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;More information can be found in the &lt;a href=&#34;https://kubernetes.io/docs/reference/kubectl/cheatsheet/&#34;&gt;Kubectl cheatsheet&lt;/a&gt;, which you can also use on the exam.&lt;/p&gt;
 &lt;h2 id=&#34;use-bookmarks-in-your-browser&#34;&gt;Use bookmarks in your browser&lt;/h2&gt;
 &lt;p&gt;The exam you are about to take is a web-based exam. You are allowed to have one tab open besides your exam tab. This can either be one of the following sites:&lt;/p&gt;
 &lt;ul&gt;
@@ -48,18 +80,18 @@ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;complete -F __start_kube
 &lt;h2 id=&#34;use-kubectl-expose&#34;&gt;Use kubectl expose&lt;/h2&gt;
 &lt;p&gt;This is a odd one, but i found it very usable. When you create a &lt;code&gt;pod&lt;/code&gt; or a &lt;code&gt;deployment&lt;/code&gt; you want it to be served some how. To do this, you can quickly create a &lt;code&gt;service&lt;/code&gt; for this &lt;code&gt;pod&lt;/code&gt; or &lt;code&gt;deployment&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;For example: I have a pod called &lt;code&gt;nginx&lt;/code&gt;. To create a service for it, i can use &lt;code&gt;kubectl expose&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;kubectl expose pod nginx --port&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt; --name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;servicename
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or, if you want a yaml file to edit it and create some more service parameters, use the following command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;kubectl expose pod nginx --port --name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;servicename --dry-run&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;client -o yaml &amp;gt; service.yml
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;use-a-alias-to-quickly-switch-to-another-namespace&#34;&gt;Use a alias to quickly switch to another namespace&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kubectl expose pod nginx --port&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt; --name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;servicename
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or, if you want a yaml file to edit it and create some more service parameters, use the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kubectl expose pod nginx --port --name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;servicename --dry-run&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;client -o yaml &amp;gt; service.yml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;use-a-alias-to-quickly-switch-to-another-namespace&#34;&gt;Use a alias to quickly switch to another namespace&lt;/h2&gt;
 &lt;p&gt;Exam quests will take place in different namespaces and contexts. If there is a question that doesn´t mention a namespace, always use the &lt;code&gt;default&lt;/code&gt; namespace.&lt;/p&gt;
 &lt;p&gt;You can switch namespaces by typing this command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;kubectl config set-context --current --namespace namespacename
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A bit long, isn´t it? To make life easier i use a alias you can add to your &lt;code&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;alias kn=&amp;#34;kubectl config set-context --current --namespace&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-your-own-vimrc&#34;&gt;Create your own .vimrc&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kubectl config set-context --current --namespace namespacename
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A bit long, isn´t it? To make life easier i use a alias you can add to your &lt;code&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;alias kn=&amp;#34;kubectl config set-context --current --namespace&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-your-own-vimrc&#34;&gt;Create your own .vimrc&lt;/h2&gt;
 &lt;p&gt;If you use vim as your favorite editor, it is important to use the right configuration. You can edit your &lt;code&gt;.vimrc&lt;/code&gt; in your home folder. I used the following settings:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;set nu # set numbers
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set nu # set numbers
 set tabstop=2 shiftwidth=2 expandtab # use 2 spaces instead of tab
 set ai # autoindent: when go to new line keep same indentation
 set cursorcolumn # You see a column on your cursor so you can easily check the identation.
